@@ -32,7 +32,7 @@ ROpensci maintains the library package baRcodeR. Collaboration in April of 2020 
 
 `devtools::install_github("https://github.com/ropensci/baRcodeR/tree/maelle-patch-1")`
 
-*note if you get a package failed to install with non-zero exit status in RStudio, set the follow `Sys.setenv(R_REMOTES_NO_ERRORS_FROM_WARNINGS="true")` 
+*note if you get a package failed to install with non-zero exit status in RStudio, set the following `Sys.setenv(R_REMOTES_NO_ERRORS_FROM_WARNINGS="true")` 
 
 ## Running the R script
 
