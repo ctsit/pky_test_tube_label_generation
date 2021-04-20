@@ -30,7 +30,7 @@ This script is configured entirely via the environment. An example `.env` file i
 
 ROpensci maintains the library package baRcodeR. Collaboration in April of 2020 helped the project use extended features to add additional human readable text under the barcode label used for tube labels. The extended feature has not been released into production so installing baRcodeR requires a command to install the patched version of baRcodeR to work with the label_generation.r script. The command to install 0.1.6 in RStudio is:
 
-'devtools::install_github("https://github.com/ropensci/baRcodeR/tree/maelle-patch-1")'
+`devtools::install_github("https://github.com/ropensci/baRcodeR/tree/maelle-patch-1")`
 
 ## Running the R script
 
