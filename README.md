@@ -19,7 +19,7 @@ This script uses R and these R packages:
 
 This script is configured entirely via the environment. An example `.env` file is provided as [`env.example`](env.example). To use this file, copy it to the name `.env` and customize according to your project needs. Follow these steps to build the required components and configure the script's `.env` file.
 
-1. Create the REDCap project from [`First_Responder_COVID19.xml`](https://github.com/ctsit/fr_covidata/blob/master/example/First_Responder_COVID19.xml). 
+1. Create the REDCap project from [`PKYongeCOVID19Timepo_2021-04-20_1230.REDCap.xml`](https://github.com/ctsit/pky_test_tube_label_generation/blob/main/PKYongeCOVID19Timepo_2021-04-20_1230.REDCap.xml). 
 1. Give a user User Rights of _Full Data Set_ for _Data Exports_
 1. The user will need an API key for the project.
 1. Add the API key to the .env file.
